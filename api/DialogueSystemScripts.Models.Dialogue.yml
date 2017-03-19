@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: DialogueSystemScripts.Models.Dialogue
+  commentId: T:DialogueSystemScripts.Models.Dialogue
+  id: Dialogue
+  parent: DialogueSystemScripts.Models
+  children:
+  - DialogueSystemScripts.Models.Dialogue.AnswersGroup
+  - DialogueSystemScripts.Models.Dialogue.InitDialogue(DialogueSystemScripts.Models.DialogueSettings)
+  - DialogueSystemScripts.Models.Dialogue.IsDialogueActive
+  - DialogueSystemScripts.Models.Dialogue.MainWindow
+  - DialogueSystemScripts.Models.Dialogue.OnDialogueClose
+  - DialogueSystemScripts.Models.Dialogue.ResetTransformValues
+  langs:
+  - csharp
+  - vb
+  name: Dialogue
+  nameWithType: Dialogue
+  fullName: DialogueSystemScripts.Models.Dialogue
+  type: Class
+  source:
+    id: Dialogue
+    path: ''
+    startLine: 750
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nКласс диалогового окна.\n"
+  example: []
+  syntax:
+    content: 'public class Dialogue : MonoBehaviour'
+    content.vb: >-
+      Public Class Dialogue
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DialogueSystemScripts.Models.Dialogue.OnDialogueClose
+  commentId: E:DialogueSystemScripts.Models.Dialogue.OnDialogueClose
+  id: OnDialogueClose
+  parent: DialogueSystemScripts.Models.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: OnDialogueClose
+  nameWithType: Dialogue.OnDialogueClose
+  fullName: DialogueSystemScripts.Models.Dialogue.OnDialogueClose
+  type: Event
+  source:
+    id: OnDialogueClose
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nСобытие для закрытия диалога из под системы диалогов.\n"
+  example: []
+  syntax:
+    content: public static event Dialogue.DialogueDelegate OnDialogueClose
+    content.vb: Public Shared Event OnDialogueClose As Dialogue.DialogueDelegate
+    return:
+      type: DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DialogueSystemScripts.Models.Dialogue.MainWindow
+  commentId: P:DialogueSystemScripts.Models.Dialogue.MainWindow
+  id: MainWindow
+  parent: DialogueSystemScripts.Models.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: MainWindow
+  nameWithType: Dialogue.MainWindow
+  fullName: DialogueSystemScripts.Models.Dialogue.MainWindow
+  type: Property
+  source:
+    id: MainWindow
+    path: ''
+    startLine: 774
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nОбъект главного окна диалога, с которым будут производиться операции во время работы с диалогами(например, удаление или перемещение окна).\n"
+  example:
+  - "\n<pre><code class=\"c#\">_mainWindow.transform.localPosition = _defaultPosition;\n_mainWindow.transform.localEulerAngles = _defaultRotation;</code></pre>\n"
+  syntax:
+    content: public GameObject MainWindow { get; }
+    content.vb: Public ReadOnly Property MainWindow As GameObject
+    parameters: []
+    return:
+      type: GameObject
+      description: Объект главного окна диалога.
+  overload: DialogueSystemScripts.Models.Dialogue.MainWindow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DialogueSystemScripts.Models.Dialogue.AnswersGroup
+  commentId: P:DialogueSystemScripts.Models.Dialogue.AnswersGroup
+  id: AnswersGroup
+  parent: DialogueSystemScripts.Models.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: AnswersGroup
+  nameWithType: Dialogue.AnswersGroup
+  fullName: DialogueSystemScripts.Models.Dialogue.AnswersGroup
+  type: Property
+  source:
+    id: AnswersGroup
+    path: ''
+    startLine: 794
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nОбъект группы в которой будут создаваться кнопки ответов.\n"
+  example: []
+  syntax:
+    content: public VerticalLayoutGroup AnswersGroup { get; }
+    content.vb: Public ReadOnly Property AnswersGroup As VerticalLayoutGroup
+    parameters: []
+    return:
+      type: VerticalLayoutGroup
+      description: Объект группы в которой будут создаваться кнопки ответов.
+  overload: DialogueSystemScripts.Models.Dialogue.AnswersGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DialogueSystemScripts.Models.Dialogue.IsDialogueActive
+  commentId: P:DialogueSystemScripts.Models.Dialogue.IsDialogueActive
+  id: IsDialogueActive
+  parent: DialogueSystemScripts.Models.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: IsDialogueActive
+  nameWithType: Dialogue.IsDialogueActive
+  fullName: DialogueSystemScripts.Models.Dialogue.IsDialogueActive
+  type: Property
+  source:
+    id: IsDialogueActive
+    path: ''
+    startLine: 805
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nАктивно ли окно диалога в данный момент.\n"
+  example: []
+  syntax:
+    content: public bool IsDialogueActive { get; set; }
+    content.vb: Public Property IsDialogueActive As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: Активно ли окно диалога в данный момент.
+  overload: DialogueSystemScripts.Models.Dialogue.IsDialogueActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.Models.Dialogue.InitDialogue(DialogueSystemScripts.Models.DialogueSettings)
+  commentId: M:DialogueSystemScripts.Models.Dialogue.InitDialogue(DialogueSystemScripts.Models.DialogueSettings)
+  id: InitDialogue(DialogueSystemScripts.Models.DialogueSettings)
+  parent: DialogueSystemScripts.Models.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: InitDialogue(DialogueSettings)
+  nameWithType: Dialogue.InitDialogue(DialogueSettings)
+  fullName: DialogueSystemScripts.Models.Dialogue.InitDialogue(DialogueSystemScripts.Models.DialogueSettings)
+  type: Method
+  source:
+    id: InitDialogue
+    path: ''
+    startLine: 840
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nИнициализация окна диалога, применение заданных настроек.\n"
+  example: []
+  syntax:
+    content: public void InitDialogue(DialogueSettings settings)
+    content.vb: Public Sub InitDialogue(settings As DialogueSettings)
+    parameters:
+    - id: settings
+      type: DialogueSystemScripts.Models.DialogueSettings
+      description: Настройки диалогового окна.
+  overload: DialogueSystemScripts.Models.Dialogue.InitDialogue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.Models.Dialogue.ResetTransformValues
+  commentId: M:DialogueSystemScripts.Models.Dialogue.ResetTransformValues
+  id: ResetTransformValues
+  parent: DialogueSystemScripts.Models.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: ResetTransformValues()
+  nameWithType: Dialogue.ResetTransformValues()
+  fullName: DialogueSystemScripts.Models.Dialogue.ResetTransformValues()
+  type: Method
+  source:
+    id: ResetTransformValues
+    path: ''
+    startLine: 849
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nСброс значений текущей позиции и вращения диалогового окна к заданным значениям по умолчанию.\n"
+  example: []
+  syntax:
+    content: public void ResetTransformValues()
+    content.vb: Public Sub ResetTransformValues
+  overload: DialogueSystemScripts.Models.Dialogue.ResetTransformValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DialogueSystemScripts.Models
+  commentId: N:DialogueSystemScripts.Models
+  isExternal: false
+  name: DialogueSystemScripts.Models
+  nameWithType: DialogueSystemScripts.Models
+  fullName: DialogueSystemScripts.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+  commentId: T:DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+  parent: DialogueSystemScripts.Models
+  isExternal: false
+  name: Dialogue.DialogueDelegate
+  nameWithType: Dialogue.DialogueDelegate
+  fullName: DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+- uid: DialogueSystemScripts.Models.Dialogue.MainWindow*
+  commentId: Overload:DialogueSystemScripts.Models.Dialogue.MainWindow
+  isExternal: false
+  name: MainWindow
+  nameWithType: Dialogue.MainWindow
+  fullName: DialogueSystemScripts.Models.Dialogue.MainWindow
+- uid: GameObject
+  commentId: '!:GameObject'
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: DialogueSystemScripts.Models.Dialogue.AnswersGroup*
+  commentId: Overload:DialogueSystemScripts.Models.Dialogue.AnswersGroup
+  isExternal: false
+  name: AnswersGroup
+  nameWithType: Dialogue.AnswersGroup
+  fullName: DialogueSystemScripts.Models.Dialogue.AnswersGroup
+- uid: VerticalLayoutGroup
+  commentId: '!:VerticalLayoutGroup'
+  isExternal: true
+  name: VerticalLayoutGroup
+  nameWithType: VerticalLayoutGroup
+  fullName: VerticalLayoutGroup
+- uid: DialogueSystemScripts.Models.Dialogue.IsDialogueActive*
+  commentId: Overload:DialogueSystemScripts.Models.Dialogue.IsDialogueActive
+  isExternal: false
+  name: IsDialogueActive
+  nameWithType: Dialogue.IsDialogueActive
+  fullName: DialogueSystemScripts.Models.Dialogue.IsDialogueActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DialogueSystemScripts.Models.Dialogue.InitDialogue*
+  commentId: Overload:DialogueSystemScripts.Models.Dialogue.InitDialogue
+  isExternal: false
+  name: InitDialogue
+  nameWithType: Dialogue.InitDialogue
+  fullName: DialogueSystemScripts.Models.Dialogue.InitDialogue
+- uid: DialogueSystemScripts.Models.DialogueSettings
+  commentId: T:DialogueSystemScripts.Models.DialogueSettings
+  parent: DialogueSystemScripts.Models
+  isExternal: false
+  name: DialogueSettings
+  nameWithType: DialogueSettings
+  fullName: DialogueSystemScripts.Models.DialogueSettings
+- uid: DialogueSystemScripts.Models.Dialogue.ResetTransformValues*
+  commentId: Overload:DialogueSystemScripts.Models.Dialogue.ResetTransformValues
+  isExternal: false
+  name: ResetTransformValues
+  nameWithType: Dialogue.ResetTransformValues
+  fullName: DialogueSystemScripts.Models.Dialogue.ResetTransformValues

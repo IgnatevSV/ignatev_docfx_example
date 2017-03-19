@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Other
+  commentId: N:Other
+  id: Other
+  children:
+  - Other.CustomSceneManager
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: Other
+  fullName: Other
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Other.CustomSceneManager
+  commentId: T:Other.CustomSceneManager
+  isExternal: false
+  name: CustomSceneManager
+  nameWithType: CustomSceneManager
+  fullName: Other.CustomSceneManager

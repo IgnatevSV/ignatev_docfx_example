@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: DialogueSystemScripts.XML_DialoguesDatabase
+  commentId: T:DialogueSystemScripts.XML_DialoguesDatabase
+  id: XML_DialoguesDatabase
+  parent: DialogueSystemScripts
+  children:
+  - DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: XML_DialoguesDatabase
+  nameWithType: XML_DialoguesDatabase
+  fullName: DialogueSystemScripts.XML_DialoguesDatabase
+  type: Class
+  source:
+    id: XML_DialoguesDatabase
+    path: ''
+    startLine: 527
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nКласс для работы с базой данных диалогов на XML.\n"
+  example: []
+  syntax:
+    content: 'public class XML_DialoguesDatabase : DialoguesDatabase'
+    content.vb: >-
+      Public Class XML_DialoguesDatabase
+          Inherits DialoguesDatabase
+  inheritance:
+  - System.Object
+  - DialogueSystemScripts.DialoguesDatabase
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings(System.Int32)
+  commentId: M:DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings(System.Int32)
+  id: GetDialogueSettings(System.Int32)
+  parent: DialogueSystemScripts.XML_DialoguesDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetDialogueSettings(Int32)
+  nameWithType: XML_DialoguesDatabase.GetDialogueSettings(Int32)
+  fullName: DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings(System.Int32)
+  type: Method
+  source:
+    id: GetDialogueSettings
+    path: ''
+    startLine: 548
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nМетод для получения настроек диалога.\n"
+  example:
+  - "\nПримеры использования:\n<pre><code class=\"c#\">int dialogueSettingsID = 0;\nDialogueSettings primarySettings;\nDialogueSettings externalSettings = GetDialogueSettings(dialogueSettingsID);\nprimarySettings.Text = externalSettings.Text;</code></pre>\n"
+  syntax:
+    content: public override DialogueSettings GetDialogueSettings(int dialogueID)
+    content.vb: Public Overrides Function GetDialogueSettings(dialogueID As Integer) As DialogueSettings
+    parameters:
+    - id: dialogueID
+      type: System.Int32
+      description: Идентификатор диалога. ID диалога в базе данных диалогов.
+    return:
+      type: DialogueSettings
+      description: Настройки диалогового окна.
+  overridden: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings(System.Int32)
+  overload: DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: DialogueSystemScripts
+  commentId: N:DialogueSystemScripts
+  isExternal: false
+  name: DialogueSystemScripts
+  nameWithType: DialogueSystemScripts
+  fullName: DialogueSystemScripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DialogueSystemScripts.DialoguesDatabase
+  commentId: T:DialogueSystemScripts.DialoguesDatabase
+  parent: DialogueSystemScripts
+  isExternal: false
+  name: DialoguesDatabase
+  nameWithType: DialoguesDatabase
+  fullName: DialogueSystemScripts.DialoguesDatabase
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings(System.Int32)
+  commentId: M:DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings(System.Int32)
+  parent: DialogueSystemScripts.DialoguesDatabase
+  isExternal: true
+  name: GetDialogueSettings(Int32)
+  nameWithType: DialoguesDatabase.GetDialogueSettings(Int32)
+  fullName: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings(System.Int32)
+  spec.csharp:
+  - uid: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings(System.Int32)
+    name: GetDialogueSettings
+    nameWithType: DialoguesDatabase.GetDialogueSettings
+    fullName: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings(System.Int32)
+    name: GetDialogueSettings
+    nameWithType: DialoguesDatabase.GetDialogueSettings
+    fullName: DialogueSystemScripts.DialoguesDatabase.GetDialogueSettings
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings*
+  commentId: Overload:DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings
+  isExternal: false
+  name: GetDialogueSettings
+  nameWithType: XML_DialoguesDatabase.GetDialogueSettings
+  fullName: DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DialogueSettings
+  isExternal: true
+  name: DialogueSettings
+  nameWithType: DialogueSettings
+  fullName: DialogueSettings

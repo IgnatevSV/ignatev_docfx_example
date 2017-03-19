@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Other.UsingExamples.UnlockAnswerExample
+  commentId: T:Other.UsingExamples.UnlockAnswerExample
+  id: UnlockAnswerExample
+  parent: Other.UsingExamples
+  children:
+  - Other.UsingExamples.UnlockAnswerExample.UnlockAnswer
+  langs:
+  - csharp
+  - vb
+  name: UnlockAnswerExample
+  nameWithType: UnlockAnswerExample
+  fullName: Other.UsingExamples.UnlockAnswerExample
+  type: Class
+  source:
+    id: UnlockAnswerExample
+    path: ''
+    startLine: 192
+  assemblies:
+  - cs.temp.dll
+  namespace: Other.UsingExamples
+  summary: "\nКласс-пример разблокировки закрытых(неактивных) вариантов ответа в системе диалогов.\n"
+  example: []
+  syntax:
+    content: 'public class UnlockAnswerExample : MonoBehaviour'
+    content.vb: >-
+      Public Class UnlockAnswerExample
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Other.UsingExamples.UnlockAnswerExample.UnlockAnswer
+  commentId: M:Other.UsingExamples.UnlockAnswerExample.UnlockAnswer
+  id: UnlockAnswer
+  parent: Other.UsingExamples.UnlockAnswerExample
+  langs:
+  - csharp
+  - vb
+  name: UnlockAnswer()
+  nameWithType: UnlockAnswerExample.UnlockAnswer()
+  fullName: Other.UsingExamples.UnlockAnswerExample.UnlockAnswer()
+  type: Method
+  source:
+    id: UnlockAnswer
+    path: ''
+    startLine: 205
+  assemblies:
+  - cs.temp.dll
+  namespace: Other.UsingExamples
+  summary: "\nМетод, разблокирующий закрытый(неактивный) вариант ответа в системе диалогов.\n"
+  example: []
+  syntax:
+    content: public void UnlockAnswer()
+    content.vb: Public Sub UnlockAnswer
+  overload: Other.UsingExamples.UnlockAnswerExample.UnlockAnswer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Other.UsingExamples
+  commentId: N:Other.UsingExamples
+  isExternal: false
+  name: Other.UsingExamples
+  nameWithType: Other.UsingExamples
+  fullName: Other.UsingExamples
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Other.UsingExamples.UnlockAnswerExample.UnlockAnswer*
+  commentId: Overload:Other.UsingExamples.UnlockAnswerExample.UnlockAnswer
+  isExternal: false
+  name: UnlockAnswer
+  nameWithType: UnlockAnswerExample.UnlockAnswer
+  fullName: Other.UsingExamples.UnlockAnswerExample.UnlockAnswer

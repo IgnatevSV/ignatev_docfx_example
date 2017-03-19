@@ -1,0 +1,39 @@
+### YamlMime:ManagedReference
+items:
+- uid: DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+  commentId: T:DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+  id: Dialogue.DialogueDelegate
+  parent: DialogueSystemScripts.Models
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Dialogue.DialogueDelegate
+  nameWithType: Dialogue.DialogueDelegate
+  fullName: DialogueSystemScripts.Models.Dialogue.DialogueDelegate
+  type: Delegate
+  source:
+    id: DialogueDelegate
+    path: ''
+    startLine: 755
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nДелегат диалога.\n"
+  example: []
+  syntax:
+    content: public delegate void DialogueDelegate();
+    content.vb: Public Delegate Sub DialogueDelegate
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: DialogueSystemScripts.Models
+  commentId: N:DialogueSystemScripts.Models
+  isExternal: false
+  name: DialogueSystemScripts.Models
+  nameWithType: DialogueSystemScripts.Models
+  fullName: DialogueSystemScripts.Models

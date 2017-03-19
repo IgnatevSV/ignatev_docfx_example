@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Other.Editor
+  commentId: N:Other.Editor
+  id: Other.Editor
+  children:
+  - Other.Editor.DefaultAssetBundlesCreator
+  - Other.Editor.DefaultAssetBundlesLoader
+  langs:
+  - csharp
+  - vb
+  name: Other.Editor
+  nameWithType: Other.Editor
+  fullName: Other.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Other.Editor.DefaultAssetBundlesLoader
+  commentId: T:Other.Editor.DefaultAssetBundlesLoader
+  isExternal: false
+  name: DefaultAssetBundlesLoader
+  nameWithType: DefaultAssetBundlesLoader
+  fullName: Other.Editor.DefaultAssetBundlesLoader
+- uid: Other.Editor.DefaultAssetBundlesCreator
+  commentId: T:Other.Editor.DefaultAssetBundlesCreator
+  isExternal: false
+  name: DefaultAssetBundlesCreator
+  nameWithType: DefaultAssetBundlesCreator
+  fullName: Other.Editor.DefaultAssetBundlesCreator

@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: DialogueSystemScripts.Models.DialogueSettings
+  commentId: T:DialogueSystemScripts.Models.DialogueSettings
+  id: DialogueSettings
+  parent: DialogueSystemScripts.Models
+  children:
+  - DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String)
+  - DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,List{DialogueSystemScripts.Models.AnswerSettings})
+  - DialogueSystemScripts.Models.DialogueSettings.Answers
+  - DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab
+  - DialogueSystemScripts.Models.DialogueSettings.HasExit
+  - DialogueSystemScripts.Models.DialogueSettings.ID
+  - DialogueSystemScripts.Models.DialogueSettings.Text
+  langs:
+  - csharp
+  - vb
+  name: DialogueSettings
+  nameWithType: DialogueSettings
+  fullName: DialogueSystemScripts.Models.DialogueSettings
+  type: Class
+  source:
+    id: DialogueSettings
+    path: ''
+    startLine: 901
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nКласс настроек диалогового окна.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DialogueSettings
+    content.vb: >-
+      <Serializable>
+
+      Public Class DialogueSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DialogueSystemScripts.Models.DialogueSettings.ID
+  commentId: P:DialogueSystemScripts.Models.DialogueSettings.ID
+  id: ID
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: DialogueSettings.ID
+  fullName: DialogueSystemScripts.Models.DialogueSettings.ID
+  type: Property
+  source:
+    id: ID
+    path: ''
+    startLine: 910
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nИдентификатор диалога. ID диалога в базе данных диалогов.\n"
+  example: []
+  syntax:
+    content: public int ID { get; }
+    content.vb: Public ReadOnly Property ID As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: Идентификатор диалога.
+  overload: DialogueSystemScripts.Models.DialogueSettings.ID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DialogueSystemScripts.Models.DialogueSettings.Text
+  commentId: P:DialogueSystemScripts.Models.DialogueSettings.Text
+  id: Text
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: DialogueSettings.Text
+  fullName: DialogueSystemScripts.Models.DialogueSettings.Text
+  type: Property
+  source:
+    id: Text
+    path: ''
+    startLine: 922
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nТекст диалога.\n"
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    content.vb: Public Property Text As String
+    parameters: []
+    return:
+      type: System.String
+      description: Текст диалога.
+  overload: DialogueSystemScripts.Models.DialogueSettings.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.Models.DialogueSettings.HasExit
+  commentId: P:DialogueSystemScripts.Models.DialogueSettings.HasExit
+  id: HasExit
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: HasExit
+  nameWithType: DialogueSettings.HasExit
+  fullName: DialogueSystemScripts.Models.DialogueSettings.HasExit
+  type: Property
+  source:
+    id: HasExit
+    path: ''
+    startLine: 934
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nЕсть ли в окне диалога кнопка закрытия Close(x).\n"
+  example: []
+  syntax:
+    content: public bool HasExit { get; }
+    content.vb: Public ReadOnly Property HasExit As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: Есть ли в окне диалога кнопка закрытия.
+  overload: DialogueSystemScripts.Models.DialogueSettings.HasExit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab
+  commentId: P:DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab
+  id: DialoguePrefab
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: DialoguePrefab
+  nameWithType: DialogueSettings.DialoguePrefab
+  fullName: DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab
+  type: Property
+  source:
+    id: DialoguePrefab
+    path: ''
+    startLine: 946
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nПрефаб диалогового окна.\n"
+  example: []
+  syntax:
+    content: public Dialogue DialoguePrefab { get; }
+    content.vb: Public ReadOnly Property DialoguePrefab As Dialogue
+    parameters: []
+    return:
+      type: DialogueSystemScripts.Models.Dialogue
+      description: Диалоговое окно.
+  overload: DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DialogueSystemScripts.Models.DialogueSettings.Answers
+  commentId: P:DialogueSystemScripts.Models.DialogueSettings.Answers
+  id: Answers
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: Answers
+  nameWithType: DialogueSettings.Answers
+  fullName: DialogueSystemScripts.Models.DialogueSettings.Answers
+  type: Property
+  source:
+    id: Answers
+    path: ''
+    startLine: 958
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nКоллекция возможных ответов в данном диалоге.\n"
+  example: []
+  syntax:
+    content: public List<AnswerSettings> Answers { get; }
+    content.vb: Public ReadOnly Property Answers As List(Of AnswerSettings)
+    parameters: []
+    return:
+      type: List{DialogueSystemScripts.Models.AnswerSettings}
+      description: Коллекция возможных ответов в данном диалоге.
+  overload: DialogueSystemScripts.Models.DialogueSettings.Answers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,List{DialogueSystemScripts.Models.AnswerSettings})
+  commentId: M:DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,List{DialogueSystemScripts.Models.AnswerSettings})
+  id: '#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,List{DialogueSystemScripts.Models.AnswerSettings})'
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: DialogueSettings(Int32, String, Boolean, Dialogue, List<AnswerSettings>)
+  nameWithType: DialogueSettings.DialogueSettings(Int32, String, Boolean, Dialogue, List<AnswerSettings>)
+  fullName: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String, System.Boolean, DialogueSystemScripts.Models.Dialogue, List<DialogueSystemScripts.Models.AnswerSettings>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 972
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nКонструктор класса DialogueSettings.\n"
+  example: []
+  syntax:
+    content: public DialogueSettings(int id, string text, bool hasExit, Dialogue dialogueLocalPrefab, List<AnswerSettings> playerAnswers)
+    content.vb: Public Sub New(id As Integer, text As String, hasExit As Boolean, dialogueLocalPrefab As Dialogue, playerAnswers As List(Of AnswerSettings))
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Идентификатор диалога. ID диалога в базе данных диалогов.
+    - id: text
+      type: System.String
+      description: Текст диалога.
+    - id: hasExit
+      type: System.Boolean
+      description: Есть ли в окне диалога кнопка закрытия Close(x).
+    - id: dialogueLocalPrefab
+      type: DialogueSystemScripts.Models.Dialogue
+      description: Префаб диалогового окна типа "Dialogue".
+    - id: playerAnswers
+      type: List{DialogueSystemScripts.Models.AnswerSettings}
+      description: Возможные ответы в данном диалоге.
+  overload: DialogueSystemScripts.Models.DialogueSettings.#ctor*
+  nameWithType.vb: DialogueSettings.DialogueSettings(Int32, String, Boolean, Dialogue, List(Of AnswerSettings))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String, System.Boolean, DialogueSystemScripts.Models.Dialogue, List(Of DialogueSystemScripts.Models.AnswerSettings))
+  name.vb: DialogueSettings(Int32, String, Boolean, Dialogue, List(Of AnswerSettings))
+- uid: DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String)
+  commentId: M:DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: DialogueSystemScripts.Models.DialogueSettings
+  langs:
+  - csharp
+  - vb
+  name: DialogueSettings(Int32, String)
+  nameWithType: DialogueSettings.DialogueSettings(Int32, String)
+  fullName: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 986
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nКонструктор класса DialogueSettings.\n"
+  example: []
+  syntax:
+    content: public DialogueSettings(int id, string text)
+    content.vb: Public Sub New(id As Integer, text As String)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Идентификатор диалога. ID диалога в базе данных диалогов.
+    - id: text
+      type: System.String
+      description: Текст диалога.
+  overload: DialogueSystemScripts.Models.DialogueSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DialogueSystemScripts.Models
+  commentId: N:DialogueSystemScripts.Models
+  isExternal: false
+  name: DialogueSystemScripts.Models
+  nameWithType: DialogueSystemScripts.Models
+  fullName: DialogueSystemScripts.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DialogueSystemScripts.Models.DialogueSettings.ID*
+  commentId: Overload:DialogueSystemScripts.Models.DialogueSettings.ID
+  isExternal: false
+  name: ID
+  nameWithType: DialogueSettings.ID
+  fullName: DialogueSystemScripts.Models.DialogueSettings.ID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DialogueSystemScripts.Models.DialogueSettings.Text*
+  commentId: Overload:DialogueSystemScripts.Models.DialogueSettings.Text
+  isExternal: false
+  name: Text
+  nameWithType: DialogueSettings.Text
+  fullName: DialogueSystemScripts.Models.DialogueSettings.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DialogueSystemScripts.Models.DialogueSettings.HasExit*
+  commentId: Overload:DialogueSystemScripts.Models.DialogueSettings.HasExit
+  isExternal: false
+  name: HasExit
+  nameWithType: DialogueSettings.HasExit
+  fullName: DialogueSystemScripts.Models.DialogueSettings.HasExit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab*
+  commentId: Overload:DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab
+  isExternal: false
+  name: DialoguePrefab
+  nameWithType: DialogueSettings.DialoguePrefab
+  fullName: DialogueSystemScripts.Models.DialogueSettings.DialoguePrefab
+- uid: DialogueSystemScripts.Models.Dialogue
+  commentId: T:DialogueSystemScripts.Models.Dialogue
+  parent: DialogueSystemScripts.Models
+  isExternal: false
+  name: Dialogue
+  nameWithType: Dialogue
+  fullName: DialogueSystemScripts.Models.Dialogue
+- uid: DialogueSystemScripts.Models.DialogueSettings.Answers*
+  commentId: Overload:DialogueSystemScripts.Models.DialogueSettings.Answers
+  isExternal: false
+  name: Answers
+  nameWithType: DialogueSettings.Answers
+  fullName: DialogueSystemScripts.Models.DialogueSettings.Answers
+- uid: List{DialogueSystemScripts.Models.AnswerSettings}
+  commentId: '!:List{DialogueSystemScripts.Models.AnswerSettings}'
+  definition: List`1
+  name: List<AnswerSettings>
+  nameWithType: List<AnswerSettings>
+  fullName: List<DialogueSystemScripts.Models.AnswerSettings>
+  nameWithType.vb: List(Of AnswerSettings)
+  fullName.vb: List(Of DialogueSystemScripts.Models.AnswerSettings)
+  name.vb: List(Of AnswerSettings)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DialogueSystemScripts.Models.AnswerSettings
+    name: AnswerSettings
+    nameWithType: AnswerSettings
+    fullName: DialogueSystemScripts.Models.AnswerSettings
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DialogueSystemScripts.Models.AnswerSettings
+    name: AnswerSettings
+    nameWithType: AnswerSettings
+    fullName: DialogueSystemScripts.Models.AnswerSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DialogueSystemScripts.Models.DialogueSettings.#ctor*
+  commentId: Overload:DialogueSystemScripts.Models.DialogueSettings.#ctor
+  isExternal: false
+  name: DialogueSettings
+  nameWithType: DialogueSettings.DialogueSettings
+  fullName: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings

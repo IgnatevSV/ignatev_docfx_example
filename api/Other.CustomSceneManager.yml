@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Other.CustomSceneManager
+  commentId: T:Other.CustomSceneManager
+  id: CustomSceneManager
+  parent: Other
+  children:
+  - Other.CustomSceneManager.LoadAssetBundlesExampleScene
+  - Other.CustomSceneManager.LoadBaseScene
+  - Other.CustomSceneManager.LoadCustomDialogueExampleScene
+  - Other.CustomSceneManager.ReloadCurrentScene
+  langs:
+  - csharp
+  - vb
+  name: CustomSceneManager
+  nameWithType: CustomSceneManager
+  fullName: Other.CustomSceneManager
+  type: Class
+  source:
+    id: CustomSceneManager
+    path: ''
+    startLine: 74
+  assemblies:
+  - cs.temp.dll
+  namespace: Other
+  summary: "\nКласс для управления сценами.\n"
+  example: []
+  syntax:
+    content: 'public class CustomSceneManager : MonoBehaviour'
+    content.vb: >-
+      Public Class CustomSceneManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Other.CustomSceneManager.LoadBaseScene
+  commentId: M:Other.CustomSceneManager.LoadBaseScene
+  id: LoadBaseScene
+  parent: Other.CustomSceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadBaseScene()
+  nameWithType: CustomSceneManager.LoadBaseScene()
+  fullName: Other.CustomSceneManager.LoadBaseScene()
+  type: Method
+  source:
+    id: LoadBaseScene
+    path: ''
+    startLine: 80
+  assemblies:
+  - cs.temp.dll
+  namespace: Other
+  syntax:
+    content: public void LoadBaseScene()
+    content.vb: Public Sub LoadBaseScene
+  overload: Other.CustomSceneManager.LoadBaseScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Other.CustomSceneManager.LoadCustomDialogueExampleScene
+  commentId: M:Other.CustomSceneManager.LoadCustomDialogueExampleScene
+  id: LoadCustomDialogueExampleScene
+  parent: Other.CustomSceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadCustomDialogueExampleScene()
+  nameWithType: CustomSceneManager.LoadCustomDialogueExampleScene()
+  fullName: Other.CustomSceneManager.LoadCustomDialogueExampleScene()
+  type: Method
+  source:
+    id: LoadCustomDialogueExampleScene
+    path: ''
+    startLine: 85
+  assemblies:
+  - cs.temp.dll
+  namespace: Other
+  syntax:
+    content: public void LoadCustomDialogueExampleScene()
+    content.vb: Public Sub LoadCustomDialogueExampleScene
+  overload: Other.CustomSceneManager.LoadCustomDialogueExampleScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Other.CustomSceneManager.LoadAssetBundlesExampleScene
+  commentId: M:Other.CustomSceneManager.LoadAssetBundlesExampleScene
+  id: LoadAssetBundlesExampleScene
+  parent: Other.CustomSceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadAssetBundlesExampleScene()
+  nameWithType: CustomSceneManager.LoadAssetBundlesExampleScene()
+  fullName: Other.CustomSceneManager.LoadAssetBundlesExampleScene()
+  type: Method
+  source:
+    id: LoadAssetBundlesExampleScene
+    path: ''
+    startLine: 90
+  assemblies:
+  - cs.temp.dll
+  namespace: Other
+  syntax:
+    content: public void LoadAssetBundlesExampleScene()
+    content.vb: Public Sub LoadAssetBundlesExampleScene
+  overload: Other.CustomSceneManager.LoadAssetBundlesExampleScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Other.CustomSceneManager.ReloadCurrentScene
+  commentId: M:Other.CustomSceneManager.ReloadCurrentScene
+  id: ReloadCurrentScene
+  parent: Other.CustomSceneManager
+  langs:
+  - csharp
+  - vb
+  name: ReloadCurrentScene()
+  nameWithType: CustomSceneManager.ReloadCurrentScene()
+  fullName: Other.CustomSceneManager.ReloadCurrentScene()
+  type: Method
+  source:
+    id: ReloadCurrentScene
+    path: ''
+    startLine: 95
+  assemblies:
+  - cs.temp.dll
+  namespace: Other
+  syntax:
+    content: public void ReloadCurrentScene()
+    content.vb: Public Sub ReloadCurrentScene
+  overload: Other.CustomSceneManager.ReloadCurrentScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Other
+  commentId: N:Other
+  isExternal: false
+  name: Other
+  nameWithType: Other
+  fullName: Other
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Other.CustomSceneManager.LoadBaseScene*
+  commentId: Overload:Other.CustomSceneManager.LoadBaseScene
+  isExternal: false
+  name: LoadBaseScene
+  nameWithType: CustomSceneManager.LoadBaseScene
+  fullName: Other.CustomSceneManager.LoadBaseScene
+- uid: Other.CustomSceneManager.LoadCustomDialogueExampleScene*
+  commentId: Overload:Other.CustomSceneManager.LoadCustomDialogueExampleScene
+  isExternal: false
+  name: LoadCustomDialogueExampleScene
+  nameWithType: CustomSceneManager.LoadCustomDialogueExampleScene
+  fullName: Other.CustomSceneManager.LoadCustomDialogueExampleScene
+- uid: Other.CustomSceneManager.LoadAssetBundlesExampleScene*
+  commentId: Overload:Other.CustomSceneManager.LoadAssetBundlesExampleScene
+  isExternal: false
+  name: LoadAssetBundlesExampleScene
+  nameWithType: CustomSceneManager.LoadAssetBundlesExampleScene
+  fullName: Other.CustomSceneManager.LoadAssetBundlesExampleScene
+- uid: Other.CustomSceneManager.ReloadCurrentScene*
+  commentId: Overload:Other.CustomSceneManager.ReloadCurrentScene
+  isExternal: false
+  name: ReloadCurrentScene
+  nameWithType: CustomSceneManager.ReloadCurrentScene
+  fullName: Other.CustomSceneManager.ReloadCurrentScene

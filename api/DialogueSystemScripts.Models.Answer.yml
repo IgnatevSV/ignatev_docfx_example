@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: DialogueSystemScripts.Models.Answer
+  commentId: T:DialogueSystemScripts.Models.Answer
+  id: Answer
+  parent: DialogueSystemScripts.Models
+  children:
+  - DialogueSystemScripts.Models.Answer.InitAnswer(DialogueSystemScripts.Models.AnswerSettings)
+  - DialogueSystemScripts.Models.Answer.IsAnswerActive
+  langs:
+  - csharp
+  - vb
+  name: Answer
+  nameWithType: Answer
+  fullName: DialogueSystemScripts.Models.Answer
+  type: Class
+  source:
+    id: Answer
+    path: ''
+    startLine: 613
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nКласс ответа в диалоговом окне.\n"
+  example: []
+  syntax:
+    content: 'public class Answer : MonoBehaviour'
+    content.vb: >-
+      Public Class Answer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DialogueSystemScripts.Models.Answer.IsAnswerActive
+  commentId: P:DialogueSystemScripts.Models.Answer.IsAnswerActive
+  id: IsAnswerActive
+  parent: DialogueSystemScripts.Models.Answer
+  langs:
+  - csharp
+  - vb
+  name: IsAnswerActive
+  nameWithType: Answer.IsAnswerActive
+  fullName: DialogueSystemScripts.Models.Answer.IsAnswerActive
+  type: Property
+  source:
+    id: IsAnswerActive
+    path: ''
+    startLine: 625
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nАктивен ли ответ на данный момент.\n"
+  example: []
+  syntax:
+    content: public bool IsAnswerActive { get; set; }
+    content.vb: Public Property IsAnswerActive As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: Активен ли ответ на данный момент.
+  overload: DialogueSystemScripts.Models.Answer.IsAnswerActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.Models.Answer.InitAnswer(DialogueSystemScripts.Models.AnswerSettings)
+  commentId: M:DialogueSystemScripts.Models.Answer.InitAnswer(DialogueSystemScripts.Models.AnswerSettings)
+  id: InitAnswer(DialogueSystemScripts.Models.AnswerSettings)
+  parent: DialogueSystemScripts.Models.Answer
+  langs:
+  - csharp
+  - vb
+  name: InitAnswer(AnswerSettings)
+  nameWithType: Answer.InitAnswer(AnswerSettings)
+  fullName: DialogueSystemScripts.Models.Answer.InitAnswer(DialogueSystemScripts.Models.AnswerSettings)
+  type: Method
+  source:
+    id: InitAnswer
+    path: ''
+    startLine: 635
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts.Models
+  summary: "\nИнициализация ответа, применение заданных настроек. \n"
+  example: []
+  syntax:
+    content: public void InitAnswer(AnswerSettings settings)
+    content.vb: Public Sub InitAnswer(settings As AnswerSettings)
+    parameters:
+    - id: settings
+      type: DialogueSystemScripts.Models.AnswerSettings
+      description: Настройки ответа.
+  overload: DialogueSystemScripts.Models.Answer.InitAnswer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DialogueSystemScripts.Models
+  commentId: N:DialogueSystemScripts.Models
+  isExternal: false
+  name: DialogueSystemScripts.Models
+  nameWithType: DialogueSystemScripts.Models
+  fullName: DialogueSystemScripts.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DialogueSystemScripts.Models.Answer.IsAnswerActive*
+  commentId: Overload:DialogueSystemScripts.Models.Answer.IsAnswerActive
+  isExternal: false
+  name: IsAnswerActive
+  nameWithType: Answer.IsAnswerActive
+  fullName: DialogueSystemScripts.Models.Answer.IsAnswerActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DialogueSystemScripts.Models.Answer.InitAnswer*
+  commentId: Overload:DialogueSystemScripts.Models.Answer.InitAnswer
+  isExternal: false
+  name: InitAnswer
+  nameWithType: Answer.InitAnswer
+  fullName: DialogueSystemScripts.Models.Answer.InitAnswer
+- uid: DialogueSystemScripts.Models.AnswerSettings
+  commentId: T:DialogueSystemScripts.Models.AnswerSettings
+  parent: DialogueSystemScripts.Models
+  isExternal: false
+  name: AnswerSettings
+  nameWithType: AnswerSettings
+  fullName: DialogueSystemScripts.Models.AnswerSettings

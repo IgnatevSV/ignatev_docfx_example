@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Other.Editor.DefaultAssetBundlesLoader
+  commentId: T:Other.Editor.DefaultAssetBundlesLoader
+  id: DefaultAssetBundlesLoader
+  parent: Other.Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DefaultAssetBundlesLoader
+  nameWithType: DefaultAssetBundlesLoader
+  fullName: Other.Editor.DefaultAssetBundlesLoader
+  type: Class
+  source:
+    id: DefaultAssetBundlesLoader
+    path: ''
+    startLine: 110
+  assemblies:
+  - cs.temp.dll
+  namespace: Other.Editor
+  summary: "\nКласс для выгрузки ассетов из AssetBundles.\n"
+  example: []
+  syntax:
+    content: 'public class DefaultAssetBundlesLoader : MonoBehaviour'
+    content.vb: >-
+      Public Class DefaultAssetBundlesLoader
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Other.Editor
+  commentId: N:Other.Editor
+  isExternal: false
+  name: Other.Editor
+  nameWithType: Other.Editor
+  fullName: Other.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

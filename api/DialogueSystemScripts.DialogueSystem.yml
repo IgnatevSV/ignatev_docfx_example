@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: DialogueSystemScripts.DialogueSystem
+  commentId: T:DialogueSystemScripts.DialogueSystem
+  id: DialogueSystem
+  parent: DialogueSystemScripts
+  children:
+  - DialogueSystemScripts.DialogueSystem.CloseAllDialogues
+  - DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue
+  - DialogueSystemScripts.DialogueSystem.GetDialogueSettings(System.Int32)
+  - DialogueSystemScripts.DialogueSystem.OpenNewDialogue(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DialogueSystem
+  nameWithType: DialogueSystem
+  fullName: DialogueSystemScripts.DialogueSystem
+  type: Class
+  source:
+    id: DialogueSystem
+    path: ''
+    startLine: 247
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nКласс, управляющий диалоговыми окнами.\n"
+  example: []
+  syntax:
+    content: 'public class DialogueSystem : MonoBehaviour'
+    content.vb: >-
+      Public Class DialogueSystem
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DialogueSystemScripts.DialogueSystem.OpenNewDialogue(System.Int32)
+  commentId: M:DialogueSystemScripts.DialogueSystem.OpenNewDialogue(System.Int32)
+  id: OpenNewDialogue(System.Int32)
+  parent: DialogueSystemScripts.DialogueSystem
+  langs:
+  - csharp
+  - vb
+  name: OpenNewDialogue(Int32)
+  nameWithType: DialogueSystem.OpenNewDialogue(Int32)
+  fullName: DialogueSystemScripts.DialogueSystem.OpenNewDialogue(System.Int32)
+  type: Method
+  source:
+    id: OpenNewDialogue
+    path: ''
+    startLine: 290
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nМетод, открывающий новое окно диалога.\n"
+  remarks: "\nПри открытии нового окна диалога предыдущее окно не закрывается!\n"
+  example: []
+  syntax:
+    content: public void OpenNewDialogue(int dialogueID)
+    content.vb: Public Sub OpenNewDialogue(dialogueID As Integer)
+    parameters:
+    - id: dialogueID
+      type: System.Int32
+      description: Идентификатор диалога, который необходимо открыть.
+  overload: DialogueSystemScripts.DialogueSystem.OpenNewDialogue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue
+  commentId: M:DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue
+  id: CloseCurrentDialogue
+  parent: DialogueSystemScripts.DialogueSystem
+  langs:
+  - csharp
+  - vb
+  name: CloseCurrentDialogue()
+  nameWithType: DialogueSystem.CloseCurrentDialogue()
+  fullName: DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue()
+  type: Method
+  source:
+    id: CloseCurrentDialogue
+    path: ''
+    startLine: 310
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nМетод, закрывающий текущее активное окно диалога.\n"
+  example: []
+  syntax:
+    content: public void CloseCurrentDialogue()
+    content.vb: Public Sub CloseCurrentDialogue
+  overload: DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.DialogueSystem.CloseAllDialogues
+  commentId: M:DialogueSystemScripts.DialogueSystem.CloseAllDialogues
+  id: CloseAllDialogues
+  parent: DialogueSystemScripts.DialogueSystem
+  langs:
+  - csharp
+  - vb
+  name: CloseAllDialogues()
+  nameWithType: DialogueSystem.CloseAllDialogues()
+  fullName: DialogueSystemScripts.DialogueSystem.CloseAllDialogues()
+  type: Method
+  source:
+    id: CloseAllDialogues
+    path: ''
+    startLine: 323
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nМетод, закрывающий все текущие открытые окна диалогов.\n"
+  example: []
+  syntax:
+    content: public void CloseAllDialogues()
+    content.vb: Public Sub CloseAllDialogues
+  overload: DialogueSystemScripts.DialogueSystem.CloseAllDialogues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DialogueSystemScripts.DialogueSystem.GetDialogueSettings(System.Int32)
+  commentId: M:DialogueSystemScripts.DialogueSystem.GetDialogueSettings(System.Int32)
+  id: GetDialogueSettings(System.Int32)
+  parent: DialogueSystemScripts.DialogueSystem
+  langs:
+  - csharp
+  - vb
+  name: GetDialogueSettings(Int32)
+  nameWithType: DialogueSystem.GetDialogueSettings(Int32)
+  fullName: DialogueSystemScripts.DialogueSystem.GetDialogueSettings(System.Int32)
+  type: Method
+  source:
+    id: GetDialogueSettings
+    path: ''
+    startLine: 342
+  assemblies:
+  - cs.temp.dll
+  namespace: DialogueSystemScripts
+  summary: "\nМетод для получения настроек диалога.\n"
+  example:
+  - "\nПримеры использования:\n<pre><code class=\"c#\">_dialogueSystem.GetDialogueSettings(_dialogueID).Answers[_answerID].IsActive = true;</code></pre>\n"
+  syntax:
+    content: public DialogueSettings GetDialogueSettings(int dialogueID)
+    content.vb: Public Function GetDialogueSettings(dialogueID As Integer) As DialogueSettings
+    parameters:
+    - id: dialogueID
+      type: System.Int32
+      description: Идентификатор диалога. ID диалога в базе данных диалогов.
+    return:
+      type: DialogueSettings
+      description: Настройки диалогового окна.
+  overload: DialogueSystemScripts.DialogueSystem.GetDialogueSettings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DialogueSystemScripts
+  commentId: N:DialogueSystemScripts
+  isExternal: false
+  name: DialogueSystemScripts
+  nameWithType: DialogueSystemScripts
+  fullName: DialogueSystemScripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DialogueSystemScripts.DialogueSystem.OpenNewDialogue*
+  commentId: Overload:DialogueSystemScripts.DialogueSystem.OpenNewDialogue
+  isExternal: false
+  name: OpenNewDialogue
+  nameWithType: DialogueSystem.OpenNewDialogue
+  fullName: DialogueSystemScripts.DialogueSystem.OpenNewDialogue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue*
+  commentId: Overload:DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue
+  isExternal: false
+  name: CloseCurrentDialogue
+  nameWithType: DialogueSystem.CloseCurrentDialogue
+  fullName: DialogueSystemScripts.DialogueSystem.CloseCurrentDialogue
+- uid: DialogueSystemScripts.DialogueSystem.CloseAllDialogues*
+  commentId: Overload:DialogueSystemScripts.DialogueSystem.CloseAllDialogues
+  isExternal: false
+  name: CloseAllDialogues
+  nameWithType: DialogueSystem.CloseAllDialogues
+  fullName: DialogueSystemScripts.DialogueSystem.CloseAllDialogues
+- uid: DialogueSystemScripts.DialogueSystem.GetDialogueSettings*
+  commentId: Overload:DialogueSystemScripts.DialogueSystem.GetDialogueSettings
+  isExternal: false
+  name: GetDialogueSettings
+  nameWithType: DialogueSystem.GetDialogueSettings
+  fullName: DialogueSystemScripts.DialogueSystem.GetDialogueSettings
+- uid: DialogueSettings
+  isExternal: true
+  name: DialogueSettings
+  nameWithType: DialogueSettings
+  fullName: DialogueSettings
