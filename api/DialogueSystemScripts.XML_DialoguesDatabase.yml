@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: XML_DialoguesDatabase
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\XML_DialoguesDatabase.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\XML_DialoguesDatabase.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp
@@ -164,7 +164,7 @@ items:
   type: Method
   source:
     id: GetDialogueSettings
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\XML_DialoguesDatabase.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\XML_DialoguesDatabase.cs
     startLine: 32
   assemblies:
   - Assembly-CSharp

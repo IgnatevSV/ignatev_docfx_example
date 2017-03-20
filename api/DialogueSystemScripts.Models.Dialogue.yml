@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: Dialogue
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp
@@ -168,7 +168,7 @@ items:
   type: Event
   source:
     id: OnDialogueClose
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 19
   assemblies:
   - Assembly-CSharp
@@ -199,7 +199,7 @@ items:
   type: Property
   source:
     id: MainWindow
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 33
   assemblies:
   - Assembly-CSharp
@@ -234,7 +234,7 @@ items:
   type: Property
   source:
     id: AnswersGroup
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 53
   assemblies:
   - Assembly-CSharp
@@ -268,7 +268,7 @@ items:
   type: Property
   source:
     id: IsDialogueActive
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 64
   assemblies:
   - Assembly-CSharp
@@ -302,7 +302,7 @@ items:
   type: Method
   source:
     id: InitDialogue
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 99
   assemblies:
   - Assembly-CSharp
@@ -334,7 +334,7 @@ items:
   type: Method
   source:
     id: ResetTransformValues
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 108
   assemblies:
   - Assembly-CSharp

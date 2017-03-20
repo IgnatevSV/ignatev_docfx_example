@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: AnswerSettings
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -69,7 +69,7 @@ items:
   type: Property
   source:
     id: Text
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 17
   assemblies:
   - Assembly-CSharp
@@ -103,7 +103,7 @@ items:
   type: Property
   source:
     id: IsActive
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 29
   assemblies:
   - Assembly-CSharp
@@ -137,7 +137,7 @@ items:
   type: Property
   source:
     id: AnswerPrefab
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 41
   assemblies:
   - Assembly-CSharp
@@ -171,7 +171,7 @@ items:
   type: Property
   source:
     id: CustomEvents
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 53
   assemblies:
   - Assembly-CSharp
@@ -205,7 +205,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 66
   assemblies:
   - Assembly-CSharp
@@ -246,7 +246,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
     startLine: 78
   assemblies:
   - Assembly-CSharp

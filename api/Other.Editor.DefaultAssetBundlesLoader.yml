@@ -14,7 +14,7 @@ items:
   type: Class
   source:
     id: DefaultAssetBundlesLoader
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DefaultAssetBundlesLoader.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DefaultAssetBundlesLoader.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp

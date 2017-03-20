@@ -14,7 +14,7 @@ items:
   type: Class
   source:
     id: DefaultAssetBundlesCreator
-    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\Editor\DefaultAssetBundlesCreator.cs
+    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\Editor\DefaultAssetBundlesCreator.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp-Editor
