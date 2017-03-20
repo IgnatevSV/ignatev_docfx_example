@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: XML_DialoguesCollection
-    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\XML_DialoguesCollection.cs
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\XML_DialoguesCollection.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -54,7 +54,7 @@ items:
   type: Property
   source:
     id: Dialogues
-    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\XML_DialoguesCollection.cs
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\XML_DialoguesCollection.cs
     startLine: 14
   assemblies:
   - Assembly-CSharp

@@ -14,7 +14,7 @@ items:
   type: Delegate
   source:
     id: DialogueDelegate
-    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
     startLine: 14
   assemblies:
   - Assembly-CSharp

@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: Answer
-    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Answer.cs
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Answer.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -164,7 +164,7 @@ items:
   type: Property
   source:
     id: IsAnswerActive
-    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Answer.cs
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Answer.cs
     startLine: 20
   assemblies:
   - Assembly-CSharp
@@ -198,7 +198,7 @@ items:
   type: Method
   source:
     id: InitAnswer
-    path: D:\Basic_DocFX_Example\docfx\ignatev_docfx_example\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Answer.cs
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Answer.cs
     startLine: 30
   assemblies:
   - Assembly-CSharp

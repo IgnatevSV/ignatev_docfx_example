@@ -53,11 +53,6 @@
         ]
       }
     ],
-    "globalMetadata": {
-      "_appTitle": "DocFX research-training project.",
-      "_appFooter": "DocFX research-training project footer.",
-      "_enableSearch": true
-    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
