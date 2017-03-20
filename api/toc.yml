@@ -27,11 +27,6 @@
     name: XML_DialoguesCollection
   - uid: DialogueSystemScripts.Models.XML_DialogueSettings
     name: XML_DialogueSettings
-- uid: DocFX_Example
-  name: DocFX_Example
-  items:
-  - uid: DocFX_Example.DocFX_Example_Class
-    name: DocFX_Example_Class
 - uid: Other
   name: Other
   items:

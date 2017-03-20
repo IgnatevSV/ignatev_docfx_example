@@ -13,7 +13,7 @@ items:
   fullName: Other
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
 references:
 - uid: Other.CustomSceneManager
   commentId: T:Other.CustomSceneManager

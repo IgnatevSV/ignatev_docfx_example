@@ -14,7 +14,7 @@ items:
   fullName: Other.UsingExamples
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
 references:
 - uid: Other.UsingExamples.OpenDialogueExample
   commentId: T:Other.UsingExamples.OpenDialogueExample

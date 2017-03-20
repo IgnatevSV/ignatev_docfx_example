@@ -14,10 +14,10 @@ items:
   type: Delegate
   source:
     id: DialogueDelegate
-    path: ''
-    startLine: 755
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\Dialogue.cs
+    startLine: 14
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nДелегат диалога.\n"
   example: []

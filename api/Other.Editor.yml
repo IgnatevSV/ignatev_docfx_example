@@ -14,7 +14,7 @@ items:
   fullName: Other.Editor
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
 references:
 - uid: Other.Editor.DefaultAssetBundlesLoader
   commentId: T:Other.Editor.DefaultAssetBundlesLoader

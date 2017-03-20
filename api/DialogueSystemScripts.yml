@@ -15,7 +15,7 @@ items:
   fullName: DialogueSystemScripts
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
 references:
 - uid: DialogueSystemScripts.DialoguesDatabase
   commentId: T:DialogueSystemScripts.DialoguesDatabase

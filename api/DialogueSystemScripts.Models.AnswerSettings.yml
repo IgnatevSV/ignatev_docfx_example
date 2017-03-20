@@ -6,7 +6,7 @@ items:
   parent: DialogueSystemScripts.Models
   children:
   - DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String)
-  - DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,Button.ButtonClickedEvent)
+  - DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,UnityEngine.UI.Button.ButtonClickedEvent)
   - DialogueSystemScripts.Models.AnswerSettings.AnswerPrefab
   - DialogueSystemScripts.Models.AnswerSettings.CustomEvents
   - DialogueSystemScripts.Models.AnswerSettings.IsActive
@@ -20,10 +20,10 @@ items:
   type: Class
   source:
     id: AnswerSettings
-    path: ''
-    startLine: 665
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 8
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nКласс настроек ответа.\n"
   example: []
@@ -39,13 +39,13 @@ items:
   inheritance:
   - System.Object
   inheritedMembers:
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
   attributes:
   - type: System.SerializableAttribute
     ctor: System.SerializableAttribute.#ctor
@@ -69,10 +69,10 @@ items:
   type: Property
   source:
     id: Text
-    path: ''
-    startLine: 674
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 17
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nТекст ответа.\n"
   example: []
@@ -103,10 +103,10 @@ items:
   type: Property
   source:
     id: IsActive
-    path: ''
-    startLine: 686
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 29
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nАктивен ли ответ в начальный момент.\n"
   example: []
@@ -137,10 +137,10 @@ items:
   type: Property
   source:
     id: AnswerPrefab
-    path: ''
-    startLine: 698
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 41
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nПрефаб ответа.\n"
   example: []
@@ -171,10 +171,10 @@ items:
   type: Property
   source:
     id: CustomEvents
-    path: ''
-    startLine: 710
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 53
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nДополнительные события, вызываемые по выбору ответа.\n"
   example: []
@@ -183,7 +183,7 @@ items:
     content.vb: Public ReadOnly Property CustomEvents As Button.ButtonClickedEvent
     parameters: []
     return:
-      type: Button.ButtonClickedEvent
+      type: UnityEngine.UI.Button.ButtonClickedEvent
       description: Дополнительные события, вызываемые по выбору ответа.
   overload: DialogueSystemScripts.Models.AnswerSettings.CustomEvents*
   modifiers.csharp:
@@ -192,23 +192,23 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,Button.ButtonClickedEvent)
-  commentId: M:DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,Button.ButtonClickedEvent)
-  id: '#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,Button.ButtonClickedEvent)'
+- uid: DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,UnityEngine.UI.Button.ButtonClickedEvent)
+  commentId: M:DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,UnityEngine.UI.Button.ButtonClickedEvent)
+  id: '#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,UnityEngine.UI.Button.ButtonClickedEvent)'
   parent: DialogueSystemScripts.Models.AnswerSettings
   langs:
   - csharp
   - vb
   name: AnswerSettings(String, Boolean, Answer, Button.ButtonClickedEvent)
   nameWithType: AnswerSettings.AnswerSettings(String, Boolean, Answer, Button.ButtonClickedEvent)
-  fullName: DialogueSystemScripts.Models.AnswerSettings.AnswerSettings(System.String, System.Boolean, DialogueSystemScripts.Models.Answer, Button.ButtonClickedEvent)
+  fullName: DialogueSystemScripts.Models.AnswerSettings.AnswerSettings(System.String, System.Boolean, DialogueSystemScripts.Models.Answer, UnityEngine.UI.Button.ButtonClickedEvent)
   type: Constructor
   source:
     id: .ctor
-    path: ''
-    startLine: 723
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 66
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nКонструктор класса AnswerSettings.\n"
   example: []
@@ -226,7 +226,7 @@ items:
       type: DialogueSystemScripts.Models.Answer
       description: Префаб диалогового окна класса "Answer".
     - id: customEvents
-      type: Button.ButtonClickedEvent
+      type: UnityEngine.UI.Button.ButtonClickedEvent
       description: Дополнительные события, вызываемые по выбору ответа.
   overload: DialogueSystemScripts.Models.AnswerSettings.#ctor*
   modifiers.csharp:
@@ -246,10 +246,10 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: ''
-    startLine: 735
+    path: D:\Basic_DocFX_Example\docfx\docfx_project\src\Task_Dialogues\Assets\Scripts\DialogueSystem\Models\AnswerSettings.cs
+    startLine: 78
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
   namespace: DialogueSystemScripts.Models
   summary: "\nКонструктор класса AnswerSettings.\n"
   example: []
@@ -279,37 +279,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -388,63 +357,6 @@ references:
     name: Equals
     nameWithType: Object.Equals
     fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
   - name: (
     nameWithType: (
@@ -558,6 +470,94 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: false
@@ -609,11 +609,19 @@ references:
   name: CustomEvents
   nameWithType: AnswerSettings.CustomEvents
   fullName: DialogueSystemScripts.Models.AnswerSettings.CustomEvents
-- uid: Button.ButtonClickedEvent
+- uid: UnityEngine.UI.Button.ButtonClickedEvent
+  commentId: T:UnityEngine.UI.Button.ButtonClickedEvent
+  parent: UnityEngine.UI
   isExternal: true
   name: Button.ButtonClickedEvent
   nameWithType: Button.ButtonClickedEvent
-  fullName: Button.ButtonClickedEvent
+  fullName: UnityEngine.UI.Button.ButtonClickedEvent
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: false
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
 - uid: DialogueSystemScripts.Models.AnswerSettings.#ctor*
   commentId: Overload:DialogueSystemScripts.Models.AnswerSettings.#ctor
   isExternal: false

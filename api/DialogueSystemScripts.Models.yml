@@ -20,7 +20,7 @@ items:
   fullName: DialogueSystemScripts.Models
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Assembly-CSharp
 references:
 - uid: DialogueSystemScripts.Models.Answer
   commentId: T:DialogueSystemScripts.Models.Answer
@@ -63,18 +63,18 @@ references:
   name: XML_AnswerSettings
   nameWithType: XML_AnswerSettings
   fullName: DialogueSystemScripts.Models.XML_AnswerSettings
-- uid: DialogueSystemScripts.Models.XML_DialoguesCollection
-  commentId: T:DialogueSystemScripts.Models.XML_DialoguesCollection
-  isExternal: false
-  name: XML_DialoguesCollection
-  nameWithType: XML_DialoguesCollection
-  fullName: DialogueSystemScripts.Models.XML_DialoguesCollection
 - uid: DialogueSystemScripts.Models.XML_DialogueSettings
   commentId: T:DialogueSystemScripts.Models.XML_DialogueSettings
   isExternal: false
   name: XML_DialogueSettings
   nameWithType: XML_DialogueSettings
   fullName: DialogueSystemScripts.Models.XML_DialogueSettings
+- uid: DialogueSystemScripts.Models.XML_DialoguesCollection
+  commentId: T:DialogueSystemScripts.Models.XML_DialoguesCollection
+  isExternal: false
+  name: XML_DialoguesCollection
+  nameWithType: XML_DialoguesCollection
+  fullName: DialogueSystemScripts.Models.XML_DialoguesCollection
 - uid: DialogueSystemScripts.Models
   commentId: N:DialogueSystemScripts.Models
   isExternal: false
