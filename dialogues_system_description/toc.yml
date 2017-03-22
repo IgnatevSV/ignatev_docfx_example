@@ -1,0 +1,16 @@
+- name: DialogueSystem
+  href: dialogue_system.md
+  items:
+    - name: Dialogue Window Prefab
+      href: dialogue_window_prefab.md
+    
+    - name: Answer Prefab
+      href: answer_prefab.md
+
+- name: Other
+  items:
+    - name: XML Dialogues Database
+      href: xml_dialogues_db.md
+      
+    - name: Scenes
+      href: scenes.md

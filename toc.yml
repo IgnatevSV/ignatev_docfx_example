@@ -1,12 +1,9 @@
 - name: Articles
   href: articles/
-  homepage: articles/intro.md
+  homepage: articles/quickstart.md
 
 - name: Api Documentation
   href: api/
 
-- name: TOC Markdown Example
-  href: TOC_Markdown_Example/
-
-- name: TOC YAML Example
-  href: TOC_YAML_Example/
+- name: Dialogues System Description
+  href: dialogues_system_description/

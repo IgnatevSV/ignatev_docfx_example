@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "files": ["src/**.sln"],
+          "files": ["src/**.cs"],
           "exclude": ["**/obj/**", "**/bin/**", "_site/**"]
         }
       ],
@@ -19,9 +19,8 @@
         "files": [
           "articles/**.md",
           "articles/**.yml",
-          "TOC_Markdown_Example/**.md",
-          "TOC_YAML_Example/**.yml",
-          "TOC_YAML_Example/**.md",
+          "dialogues_system_description/**.yml",
+          "dialogues_system_description/**.md",
           "toc.yml",
           "*.md"
         ],
@@ -34,7 +33,7 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "dialogues_system_description/images/**"
         ],
         "exclude": [
           "obj/**",
@@ -56,7 +55,8 @@
     "globalMetadata": {
       "_appTitle": "DocFX research-training project.",
       "_appFooter": "DocFX research-training project footer.",
-      "_enableSearch": true
+      "_enableSearch": true,
+      "_gitUrlPattern": "github"
     },
     "dest": "_site",
     "globalMetadataFiles": [],
