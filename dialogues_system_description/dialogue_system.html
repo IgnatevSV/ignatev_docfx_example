@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dialogue System | DocFX research-training project. </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dialogue System | DocFX research-training project. ">
+    <meta name="generator" content="docfx 2.13.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+              <h1 id="dialogue-system">Dialogue System</h1>
+              
+<h3 id="основное">Основное</h3>
+<p><a class="xref" href="../api/DialogueSystemScripts.DialogueSystem.html">DialogueSystem</a></p>
+<p><img src="images/dialogueSystem.png" alt="DialogueSystem"></p>
+<p>Диалог создается через DialogueSystem, метод OpenNewDialogue(int dialogueID).</p>
+<div class="WARNING"><h5>Warning</h5><p>При создании нового диалога - предыдущий диалог не закрывается, а становится неактивным.</p>
+</div>
+<p>Для того, что бы закрыть текущий диалог используется метод CloseCurrentDialogue(), в классе DialogueSystem.  </p>
+<p>Также возможно закрыть все текущие открытые диалоги(в т.ч. неактивные). Для этого используется метод CloseAllDialogues(), в классе DialogueSystem.</p>
+<h3 id="hierarchy">Hierarchy</h3>
+<p><img src="images/hierarchy.png" alt="Hierarchy"></p>
+<h3 id="data-input-type">Data Input Type</h3>
+<p>Тип выбора данных(текстов) для диалогов:</p>
+<ul>
+<li>Direct - выборка данных из &quot;Dialogues Settings&quot;.</li>
+<li>External - выборка данных из объекта Database.</li>
+</ul>
+<h3 id="database">Database</h3>
+<p>Объект типа &quot;Database&quot;, из которого идет выборка данных для диалогов.</p>
+<div class="NOTE"><h5>Note</h5><p>При использовании ввода данных через XML-файл необходимо указывать корректные значения &quot;Size&quot; массива &quot;AnswerSettings&quot;. XML-файл данных используется только для изменения значений &quot;Text&quot; в DialogueSettings и AnswerSettings.  </p>
+</div>
+<p><a class="xref" href="xml_dialogues_db.html">XML Dialogues Database</a><br><a class="xref" href="../api/DialogueSystemScripts.XML_DialoguesDatabase.html">XML_DialoguesDatabase</a></p>
+<h3 id="main-canvas-group">Main Canvas Group</h3>
+<p>Объект типа &quot;Canvas Group&quot;.<br>Необходим для блокирования управления вне диалогового окна.</p>
+<h3 id="dialogue-spawn-point">Dialogue Spawn Point</h3>
+<p>Объект типа &quot;RectTransform&quot;.<br>Необходим для указания объкта, в котором будет происходить создание диалогового окна.<br>Если не задан, то по умолчанию устанавливается объект &quot;Main Canvas Group&quot;.</p>
+<h3 id="dialogue-main-prefab">Dialogue Main Prefab</h3>
+<p>Префаб диалогового окна типа &quot;Dialogue&quot;.<br><a class="xref" href="dialogue_window_prefab.html">Dialogue Window Prefab</a><br><a class="xref" href="../api/DialogueSystemScripts.Models.Dialogue.html">Dialogue</a></p>
+<h3 id="answer-main-prefab">Answer Main Prefab</h3>
+<p>Префаб кнопки ответа окна типа &quot;Answer&quot;.<br><a class="xref" href="answer_prefab.html">Answer Prefab</a><br><a class="xref" href="../api/DialogueSystemScripts.Models.AnswerSettings.html">AnswerSettings</a><br><a class="xref" href="../api/DialogueSystemScripts.Models.Answer.html">Answer</a></p>
+<h3 id="dialogues-settings">Dialogues Settings</h3>
+<p>Массив объектов типа &quot;DialogueSettings&quot;.<br>Size - размер массива, количество диалогов.<br><a class="xref" href="../api/DialogueSystemScripts.Models.DialogueSettings.html">DialogueSettings</a></p>
+<div class="NOTE"><h5>Note</h5><p>При использовании ввода данных через XML-файл необходимо указывать корректные значения &quot;Size&quot; массива &quot;AnswerSettings&quot;. XML-файл данных используется только для изменения значений &quot;Text&quot; в DialogueSettings и AnswerSettings.</p>
+</div>
+<h3 id="dialogue-position-offset">Dialogue Position Offset</h3>
+<p>Значения, на которые будет сдвинуто текущее диалоговое окно при открытии нового диалогового окна.</p>
+<h3 id="dialogue-rotation-offset">Dialogue Rotation Offset</h3>
+<p>Значения, на которые будет повернуто текущее диалоговое окно при открытии нового диалогового окна.</p>
+
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DocFX research-training project footer.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

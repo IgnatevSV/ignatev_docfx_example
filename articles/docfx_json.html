@@ -1,0 +1,464 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>docfx.json | DocFX research-training project. </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="docfx.json | DocFX research-training project. ">
+    <meta name="generator" content="docfx 2.13.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+              <h1 id="docfxjson">docfx.json</h1>
+              
+<div class="WARNING"><h5>Warning</h5><p>Это краткая переведенная версия страницы <a href="https://dotnet.github.io/docfx/tutorial/docfx.exe_user_manual.html">DocFX User Manual</a></p>
+</div>
+<p>Структура <code>docfx.json</code> представляет собой пару ключ-значение.</p>
+<h3 id="свойства-для-metadata">Свойства для <code>metadata</code></h3>
+<table>
+<thead>
+<tr>
+<th>Свойство</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>src</td>
+<td>Определяет исходные проекты, для которых необходимо сгенерировать <code>metadata</code> файлы.</td>
+</tr>
+<tr>
+<td>dest</td>
+<td>Определяет папки для вывода сгенерированных <code>metadata</code> файлов.</td>
+</tr>
+<tr>
+<td>shouldSkipMarkup</td>
+<td><code>Bool</code> значение для отключения рендеринга triple-slash-комментариев в исходном коде как markdown.</td>
+</tr>
+<tr>
+<td>filter</td>
+<td>Определяет фильтр для конфигурационных файлов.</td>
+</tr>
+</tbody>
+</table>
+<p>Примеры:</p>
+<pre><code class="lang-json">{
+  &quot;metadata&quot;: [
+    {
+      &quot;src&quot;: [
+        {
+          &quot;files&quot;: [&quot;**/*.csproj&quot;],
+          &quot;exclude&quot;: [ &quot;**/bin/**&quot;, &quot;**/obj/**&quot; ], 
+          &quot;src&quot;: &quot;../src&quot;
+        }
+      ],
+      &quot;dest&quot;: &quot;obj/docfx/api/dotnet&quot;,
+      &quot;shouldSkipMarkup&quot;: true
+    },
+    {
+      &quot;src&quot;: [
+        {
+          &quot;files&quot;: [&quot;**/*.js&quot;],
+          &quot;src&quot;: &quot;../src&quot;
+        }
+      ],
+      &quot;dest&quot;: &quot;obj/docfx/api/js&quot;,
+      &quot;useCompatibilityFileName&quot;: true
+    }
+  ]
+}
+</code></pre><h3 id="свойства-для-build">Свойства для <code>build</code></h3>
+<table>
+<thead>
+<tr>
+<th>Свойство</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>content</td>
+<td>Содержит все файлы, которые необходимы для генерации документации.</td>
+</tr>
+<tr>
+<td>resource</td>
+<td>Содержит все ресурсные файлы, такие как, например, изображения.</td>
+</tr>
+<tr>
+<td>overwrite</td>
+<td>Содержит все файлы, которые предназначены для перезаписи существующих файлов <code>yml</code>.</td>
+</tr>
+<tr>
+<td>globalMetadata</td>
+<td>Содержит метаданные, которые будут применены к каждому файлу в формате ключ-значение.</td>
+</tr>
+<tr>
+<td>fileMetadata</td>
+<td>Содержит метаданные, которые будут применены к определенным файлам.</td>
+</tr>
+<tr>
+<td>globalMetadataFiles</td>
+<td>Определяет список файлов JSON которые содержат настройки globalMetadata.</td>
+</tr>
+<tr>
+<td>fileMetadataFiles</td>
+<td>Определяет список файлов JSON которые содержат настройки fileMetadata.</td>
+</tr>
+<tr>
+<td>template</td>
+<td>Шаблон, который будет применен к каждому файлу в документации.</td>
+</tr>
+<tr>
+<td>theme</td>
+<td>Тема, которая будет применена к документации. Тема используется для изменения стиля, сгенерированного шаблоном.</td>
+</tr>
+<tr>
+<td>xref</td>
+<td>Определяет ссылки xrefmap, которые используются для файлов <code>content</code>. На данный момент подерживает следующие форматы: http, https, ftp, file.</td>
+</tr>
+</tbody>
+</table>
+<p>Примеры <code>template</code>:</p>
+<pre><code class="lang-json">{
+    &quot;build&quot; : 
+    {
+      ...
+      &quot;template&quot;: &quot;custom&quot;,
+      ...
+    }
+  ... 
+}
+</code></pre><pre><code class="lang-json">{
+    &quot;build&quot; : 
+    {
+      ...
+      &quot;template&quot;: [&quot;default&quot;, &quot;X:/template/custom&quot;],
+      ...
+    }
+  ... 
+}
+</code></pre><p>Примеры:</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;content&quot;:
+      [
+        {
+          &quot;files&quot;: [&quot;**/*.yml&quot;],
+          &quot;src&quot;: &quot;obj/docfx&quot;
+        },
+        {
+          &quot;files&quot;: [&quot;tutorial/**/*.md&quot;, &quot;spec/**/*.md&quot;, &quot;spec/**/toc.yml&quot;]
+        },
+        {
+          &quot;files&quot;: [&quot;toc.yml&quot;]
+        }
+      ],
+    &quot;resource&quot;: [
+        {
+          &quot;files&quot;: [&quot;spec/images/**&quot;]
+        }
+    ],
+    &quot;overwrite&quot;: &quot;apispec/*.md&quot;,
+    &quot;externalReference&quot;: [
+    ],
+    &quot;globalMetadata&quot;: {
+      &quot;_appTitle&quot;: &quot;DocFX website&quot;
+    },
+    &quot;dest&quot;: &quot;_site&quot;,
+    &quot;template&quot;: &quot;default&quot;
+  }
+}
+</code></pre><h4 id="зарезервированные-имена-метаданных">Зарезервированные имена метаданных</h4>
+<table>
+<thead>
+<tr>
+<th>Metadata Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>_appTitle</td>
+<td>string</td>
+<td>Текст заголовка каждой страницы.</td>
+</tr>
+<tr>
+<td>_appFooter</td>
+<td>string</td>
+<td>Текст нижнего колонтикула.</td>
+</tr>
+<tr>
+<td>_appLogoPath</td>
+<td>string</td>
+<td>Путь к изображению логотипа каждой страницы.</td>
+</tr>
+<tr>
+<td>_appFaviconPath</td>
+<td>string</td>
+<td>Путь к изображению иконки каждой страницы..</td>
+</tr>
+<tr>
+<td>_enableSearch</td>
+<td>bool</td>
+<td>Включает поиск по всему вебсайту.</td>
+</tr>
+<tr>
+<td>_enableNewTab</td>
+<td>bool</td>
+<td>Открывает ли новую вкладку по переходу по ссылке.</td>
+</tr>
+<tr>
+<td>_disableNavbar</td>
+<td>bool</td>
+<td>Отключает navbar вверху страницы.</td>
+</tr>
+<tr>
+<td>_disableBreadcrumb</td>
+<td>bool</td>
+<td>Отключает breadcrumb вверху странцы.</td>
+</tr>
+<tr>
+<td>_disableToc</td>
+<td>bool</td>
+<td>Отключает table of contents слева на странице.</td>
+</tr>
+<tr>
+<td>_disableAffix</td>
+<td>bool</td>
+<td>Отключает affix bar справа на странице.</td>
+</tr>
+<tr>
+<td>_disableContribution</td>
+<td>bool</td>
+<td>Отключает кнопки <code>View Source</code> и <code>Improve this Doc</code> справа на странице.</td>
+</tr>
+<tr>
+<td>_gitContribute</td>
+<td>object</td>
+<td>Настройка кнопки <code>Improve this Doc</code>. В <code>repo</code> указывается ссылка на репозиторий. В <code>branch</code> указывается ветка(branch) репозитория. В <code>path</code> указывается путь для перезаписи файлов.</td>
+</tr>
+<tr>
+<td>_gitUrlPattern</td>
+<td>string</td>
+<td>Шаблон ссылки на репозиторий для генерации ссылок на кнопка <code>View Source</code> и <code>Improve this Doc</code>. На текущий момент поддерживает <code>github</code> и <code>vso</code> currently. Если не указано, то DocFX попытается использовать шаблон из имени домена ссылки на git.</td>
+</tr>
+</tbody>
+</table>
+<p>Cпособs установки метаданных для файлов:</p>
+<ol>
+<li><code>global metadata</code> устанавливает метаданные для каждого файла.</li>
+<li><code>file metadata</code> устанавливает метаданные для файлов, которые совпадают по заданному шаблону.</li>
+<li><code>YAML header</code> устанавливает метаданные для заданного файла.</li>
+</ol>
+<p>Примеры:</p>
+<ul>
+<li><p>Пример <code>globalMetadata</code> </p>
+<pre><code class="lang-json">  {
+      &quot;_appTitle&quot;: &quot;DocFX website&quot;,
+      &quot;_enableSearch&quot;: &quot;true&quot;
+  }
+</code></pre></li>
+<li><p>Пример <code>fileMetadata</code></p>
+<pre><code class="lang-json">  {
+      &quot;priority&quot;: {
+          &quot;**.md&quot;: 2.5,
+          &quot;spec/**.md&quot;: 3
+      },
+      &quot;keywords&quot;: {
+          &quot;obj/docfx/**&quot;: [&quot;API&quot;, &quot;Reference&quot;],
+          &quot;spec/**.md&quot;: [&quot;Spec&quot;, &quot;Conceptual&quot;]
+      }
+  }
+</code></pre></li>
+<li><p>Пример использования <code>globalMetadataFiles</code> в <code>docfx.json</code></p>
+<pre><code class="lang-json">  ...
+  &quot;globalMetadataFiles&quot;: [&quot;global1.json&quot;, &quot;global2.json&quot;],
+  ...
+</code></pre></li>
+<li><p>Пример использования <code>--globalMetadataFiles</code> при создании билда через коммандную строку</p>
+<pre><code>  docfx build --globalMetadataFiles global1.json,global2.json
+</code></pre></li>
+<li><p>Пример использования <code>fileMetadataFiles</code> в <code>docfx.json</code></p>
+<pre><code class="lang-json">  ...
+  &quot;fileMetadataFiles&quot;: [&quot;file1.json&quot;, &quot;file2.json&quot;],
+  ...
+</code></pre></li>
+<li><p>Пример использования <code>--fileMetadataFiles</code> при создании билда через коммандную строку</p>
+<pre><code>  docfx build --fileMetadataFiles file1.json,file2.json
+</code></pre></li>
+<li><p>Приоритет global metadata: </p>
+<ol>
+<li>global metadata из файла docfx config</li>
+<li>global metadata из global metadata</li>
+<li>global metadata из командной строки</li>
+</ol>
+</li>
+<li><p>Приоритет file metadata: </p>
+<ol>
+<li>file metadata из файла docfx config</li>
+<li>file metadata из файла file metadata</li>
+</ol>
+</li>
+</ul>
+<h3 id="формат-file-mapping">Формат File Mapping</h3>
+<table>
+<thead>
+<tr>
+<th>Property Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>files</td>
+<td><strong>REQUIRED</strong>. Файл или массив файлов. Поддерживается шаблон <code>glob</code>.</td>
+</tr>
+<tr>
+<td>exclude</td>
+<td>Файл или массив файлов, которые должны быть исключены. Поддерживается шаблон <code>glob</code>.</td>
+</tr>
+<tr>
+<td>src</td>
+<td>Каталог источника.</td>
+</tr>
+<tr>
+<td>dest</td>
+<td>Каталог для сгенерированных файлов.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Версия текущего файла.</td>
+</tr>
+<tr>
+<td>caseSensitive</td>
+<td><strong>TOBEIMPLEMENTED</strong>. Чувствительность к регистру шаблона <code>glob</code>. Значение по умолчанию - <code>false</code>.</td>
+</tr>
+<tr>
+<td>supportBackslash</td>
+<td><strong>TOBEIMPLEMENTED</strong>. Если значение - <code>true</code>, то символ <code>\</code> будет использоваться как разделитель пути файлов. Значение по умолчанию - <code>false</code>.</td>
+</tr>
+<tr>
+<td>escape</td>
+<td><strong>TOBEIMPLEMENTED</strong>. Если значение - <code>true</code>, то символ <code>\</code> будет использоваться как escape-символ, т.е. <code>\{\}.txt</code> будет равносильно <code>{}.txt</code>. Значение по умолчанию - <code>false</code>.</td>
+</tr>
+</tbody>
+</table>
+<p>Пример:</p>
+<pre><code class="lang-json">&quot;key&quot;: [
+  {&quot;files&quot;: [&quot;file1&quot;, &quot;file2&quot;], &quot;dest&quot;: &quot;dest1&quot;},
+  {&quot;files&quot;: &quot;file3&quot;, &quot;dest&quot;: &quot;dest2&quot;},
+  {&quot;files&quot;: [&quot;file4&quot;, &quot;file5&quot;], &quot;exclude&quot;: [&quot;file5&quot;], &quot;src&quot;: &quot;folder1&quot;},
+  {&quot;files&quot;: &quot;Example.yml&quot;, &quot;src&quot;: &quot;v1.0&quot;, &quot;dest&quot;:&quot;v1.0/api&quot;, &quot;version&quot;: &quot;v1.0&quot;},
+  {&quot;files&quot;: &quot;Example.yml&quot;, &quot;src&quot;: &quot;v2.0&quot;, &quot;dest&quot;:&quot;v2.0/api&quot;, &quot;version&quot;: &quot;v2.0&quot;}
+]
+</code></pre><h3 id="шаблон-glob">Шаблон Glob</h3>
+<p><code>DocFX</code> использует <a href="https://github.com/vicancy/Glob">Glob</a> для поддержки шаблона <em>glob</em> в пути к файлам.</p>
+<ol>
+<li><code>*</code> соответствует любому числу символов кроме <code>/</code></li>
+<li><code>?</code> соответствует одному символу кроме <code>/</code></li>
+<li><code>**</code> соответствует любому числу символов включая <code>/</code>, но только для одного объекта указанного в пути</li>
+<li><code>{}</code> разрешает разделенный запятыми список выражений <strong>OR</strong></li>
+</ol>
+
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DocFX research-training project footer.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

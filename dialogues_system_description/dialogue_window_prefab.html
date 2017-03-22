@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#1047;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1086;&#1082; Topic 2.2 | DocFX research-training project. </title>
+    <title>Dialogue Window Prefab | DocFX research-training project. </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#1047;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1086;&#1082; Topic 2.2 | DocFX research-training project. ">
+    <meta name="title" content="Dialogue Window Prefab | DocFX research-training project. ">
     <meta name="generator" content="docfx 2.13.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -73,11 +73,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-              <h1 id="заголовок-topic-22">Заголовок Topic 2.2</h1>
+            <article class="content wrap" id="_content" data-uid="dialogue_window_prefab">
+              <h1 id="dialogue-window-prefab">Dialogue Window Prefab</h1>
               
-<h2 id="подзаголовок">Подзаголовок</h2>
-<p>Описание Topic 2.2</p>
+<h3 id="основное">Основное</h3>
+<p><a class="xref" href="../api/DialogueSystemScripts.Models.Dialogue.html">Dialogue</a></p>
+<p>Префаб окна диалога.<br>Может быть настроен дизайнером, однако должен иметь объекты и компоненты, перечисленные в пункте &quot;Dialogue Settings&quot;.</p>
+<p><img src="images/dialogueWindowPrefab.png" alt="DialogueWindowPrefab"></p>
+<h3 id="main-window">Main Window</h3>
+<p>Объект главного окна диалога, с которым будут производиться операции во время работы с диалогами(например, удаление или перемещение окна).</p>
+<h3 id="close-window-button">Close Window Button</h3>
+<p>Кнопка закрытия окна диалога.</p>
+<h3 id="fader">Fader</h3>
+<p>Объект типа &quot;Image&quot;, который будет активирован для затемнения окна диалога, если оно не активно.<br>Данный объект указывается по усмотрению дизайнера.</p>
+<h3 id="dialogue-text">Dialogue Text</h3>
+<p>Объект типа &quot;Text&quot; для вывода текста диалога.</p>
+<h3 id="answers-group">Answers Group</h3>
+<p>Объект типа &quot;Vertical Layout Group&quot; в котором будут создаваться кнопки ответов.</p>
+<h3 id="canvas-group">Canvas Group</h3>
+<p>Объект типа &quot;Canvas Group&quot;, который должен быть создан дизайнером как компонент в объекте главного окна диалога(Main Window).<br>Используется для блокировки управления в Canvas, в случае если диалоговоеокно неактивно.</p>
 
             </article>
           </div>
