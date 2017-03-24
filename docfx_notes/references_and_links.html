@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API | DocFX research-training project. </title>
+    <title>Links and Cross References | DocFX research-training project </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API | DocFX research-training project. ">
+    <meta name="title" content="Links and Cross References | DocFX research-training project ">
     <meta name="generator" content="docfx 2.13.1.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../images/icon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
@@ -34,7 +34,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -74,17 +74,28 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-              <h2 id="api">API</h2>
+              <h1 id="links-and-cross-references">Links and Cross References</h1>
               
-<p>Markdown файлы по исходному коду генерируются в папке <code>api</code> или в любой другой папке указанной в docfx.json -&gt; &quot;metadata&quot; -&gt; &quot;dest&quot;.</p>
-<div class="WARNING"><h5>Warning</h5><p>При изменении папки <code>api</code> на другую или изменении имени, также необходимо скорректировать путь до файлов в docfx.json -&gt; &quot;build&quot; -&gt; &quot;content&quot; -&gt; &quot;files&quot;.</p>
+<div class="WARNING"><h5>Warning</h5><p>Это краткая версия страницы <a href="https://dotnet.github.io/docfx/tutorial/links_and_cross_references.html">DocFX Links and Cross References</a></p>
 </div>
-<h2 id="source">Source</h2>
-<ul>
-<li>Источник исходных файлов указывается в docfx.json -&gt; &quot;metadata&quot; -&gt; &quot;src&quot; -&gt; &quot;files&quot;.</li>
-<li>Также могут быть указаны исключения исходных файлов в docfx.json -&gt; &quot;metadata&quot; -&gt; &quot;src&quot; -&gt; &quot;exclude&quot;.</li>
-</ul>
+<h3 id="основное">Основное</h3>
+<p>В DocFX используется синтакс гиперссылок <code>Markdown</code>.
+Пример:</p>
+<pre><code>[bing](http://www.bing.com)
+</code></pre><p>В DocFX используется шаблон <a href="https://github.com/vicancy/Glob">Glob</a>.<br>Также DocFX предоставляет возможность использования символов <code>~</code> и <code>..</code>, которые представляют собой указатель на корень проекта - область проекта где находится <code>docfx.json</code>.
+Пример:</p>
+<pre><code>[file1](~/file1.md)
 
+[file1](../file1.md)
+</code></pre><p>Данный пример представляет собой <em>относительный путь</em>, т.е. путь к файлам <code>md</code> и <code>yml</code> , которые затем будут преобразованы в <code>html</code>, но также можно использовать <em>абсолютный путь</em>:</p>
+<pre><code>[file2](/subfolder/file2.html)
+</code></pre><h3 id="ссылка-по-uid">Ссылка по UID</h3>
+<p><code>uid</code> - это уникальный идентификатор каждого объекта в проекте DocFX.</p>
+<p>В данном случае синтаксис гиперссылки будет:</p>
+<pre><code>[link_text](xref:uid_of_another_file)
+</code></pre><p>Также существует краткая форма гиперссылки на объекты с <code>uid</code>:</p>
+<pre><code>@uid_to_another_file
+</code></pre>
             </article>
           </div>
           
@@ -92,6 +103,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/IgnatevSV/ignatev_docfx_example/blob/master/docfx_notes/references_and_links.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
@@ -109,7 +123,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            DocFX research-training project footer.
+            DocFX research-training project 2017
             
           </div>
         </div>

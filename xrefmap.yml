@@ -133,11 +133,11 @@ references:
   commentId: M:DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String)
   fullName: DialogueSystemScripts.Models.AnswerSettings.AnswerSettings(System.String)
   nameWithType: AnswerSettings.AnswerSettings(String)
-- uid: DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,Button.ButtonClickedEvent)
+- uid: DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,UnityEngine.UI.Button.ButtonClickedEvent)
   name: AnswerSettings(String, Boolean, Answer, Button.ButtonClickedEvent)
-  href: api/DialogueSystemScripts.Models.AnswerSettings.html#DialogueSystemScripts_Models_AnswerSettings__ctor_System_String_System_Boolean_DialogueSystemScripts_Models_Answer_Button_ButtonClickedEvent_
-  commentId: M:DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,Button.ButtonClickedEvent)
-  fullName: DialogueSystemScripts.Models.AnswerSettings.AnswerSettings(System.String, System.Boolean, DialogueSystemScripts.Models.Answer, Button.ButtonClickedEvent)
+  href: api/DialogueSystemScripts.Models.AnswerSettings.html#DialogueSystemScripts_Models_AnswerSettings__ctor_System_String_System_Boolean_DialogueSystemScripts_Models_Answer_UnityEngine_UI_Button_ButtonClickedEvent_
+  commentId: M:DialogueSystemScripts.Models.AnswerSettings.#ctor(System.String,System.Boolean,DialogueSystemScripts.Models.Answer,UnityEngine.UI.Button.ButtonClickedEvent)
+  fullName: DialogueSystemScripts.Models.AnswerSettings.AnswerSettings(System.String, System.Boolean, DialogueSystemScripts.Models.Answer, UnityEngine.UI.Button.ButtonClickedEvent)
   nameWithType: AnswerSettings.AnswerSettings(String, Boolean, Answer, Button.ButtonClickedEvent)
 - uid: DialogueSystemScripts.Models.AnswerSettings.#ctor*
   name: AnswerSettings
@@ -283,13 +283,13 @@ references:
   commentId: M:DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String)
   fullName: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String)
   nameWithType: DialogueSettings.DialogueSettings(Int32, String)
-- uid: DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,List{DialogueSystemScripts.Models.AnswerSettings})
+- uid: DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,System.Collections.Generic.List{DialogueSystemScripts.Models.AnswerSettings})
   name: DialogueSettings(Int32, String, Boolean, Dialogue, List<AnswerSettings>)
-  href: api/DialogueSystemScripts.Models.DialogueSettings.html#DialogueSystemScripts_Models_DialogueSettings__ctor_System_Int32_System_String_System_Boolean_DialogueSystemScripts_Models_Dialogue_List_DialogueSystemScripts_Models_AnswerSettings__
-  commentId: M:DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,List{DialogueSystemScripts.Models.AnswerSettings})
+  href: api/DialogueSystemScripts.Models.DialogueSettings.html#DialogueSystemScripts_Models_DialogueSettings__ctor_System_Int32_System_String_System_Boolean_DialogueSystemScripts_Models_Dialogue_System_Collections_Generic_List_DialogueSystemScripts_Models_AnswerSettings__
+  commentId: M:DialogueSystemScripts.Models.DialogueSettings.#ctor(System.Int32,System.String,System.Boolean,DialogueSystemScripts.Models.Dialogue,System.Collections.Generic.List{DialogueSystemScripts.Models.AnswerSettings})
   name.vb: DialogueSettings(Int32, String, Boolean, Dialogue, List(Of AnswerSettings))
-  fullName: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String, System.Boolean, DialogueSystemScripts.Models.Dialogue, List<DialogueSystemScripts.Models.AnswerSettings>)
-  fullName.vb: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String, System.Boolean, DialogueSystemScripts.Models.Dialogue, List(Of DialogueSystemScripts.Models.AnswerSettings))
+  fullName: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String, System.Boolean, DialogueSystemScripts.Models.Dialogue, System.Collections.Generic.List<DialogueSystemScripts.Models.AnswerSettings>)
+  fullName.vb: DialogueSystemScripts.Models.DialogueSettings.DialogueSettings(System.Int32, System.String, System.Boolean, DialogueSystemScripts.Models.Dialogue, System.Collections.Generic.List(Of DialogueSystemScripts.Models.AnswerSettings))
   nameWithType: DialogueSettings.DialogueSettings(Int32, String, Boolean, Dialogue, List<AnswerSettings>)
   nameWithType.vb: DialogueSettings.DialogueSettings(Int32, String, Boolean, Dialogue, List(Of AnswerSettings))
 - uid: DialogueSystemScripts.Models.DialogueSettings.#ctor*
@@ -454,90 +454,6 @@ references:
   commentId: Overload:DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings
   fullName: DialogueSystemScripts.XML_DialoguesDatabase.GetDialogueSettings
   nameWithType: XML_DialoguesDatabase.GetDialogueSettings
-- uid: DocFX_Example
-  name: DocFX_Example
-  href: api/DocFX_Example.html
-  commentId: N:DocFX_Example
-  fullName: DocFX_Example
-  nameWithType: DocFX_Example
-- uid: DocFX_Example.DocFX_Example_Class
-  name: DocFX_Example_Class
-  href: api/DocFX_Example.DocFX_Example_Class.html
-  commentId: T:DocFX_Example.DocFX_Example_Class
-  fullName: DocFX_Example.DocFX_Example_Class
-  nameWithType: DocFX_Example_Class
-- uid: DocFX_Example.DocFX_Example_Class.PropertyExample
-  name: PropertyExample
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_PropertyExample
-  commentId: P:DocFX_Example.DocFX_Example_Class.PropertyExample
-  fullName: DocFX_Example.DocFX_Example_Class.PropertyExample
-  nameWithType: DocFX_Example_Class.PropertyExample
-- uid: DocFX_Example.DocFX_Example_Class.PropertyExample*
-  name: PropertyExample
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_PropertyExample_
-  commentId: Overload:DocFX_Example.DocFX_Example_Class.PropertyExample
-  fullName: DocFX_Example.DocFX_Example_Class.PropertyExample
-  nameWithType: DocFX_Example_Class.PropertyExample
-- uid: DocFX_Example.DocFX_Example_Class.ProtectedInternalMethod
-  name: ProtectedInternalMethod()
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_ProtectedInternalMethod
-  commentId: M:DocFX_Example.DocFX_Example_Class.ProtectedInternalMethod
-  fullName: DocFX_Example.DocFX_Example_Class.ProtectedInternalMethod()
-  nameWithType: DocFX_Example_Class.ProtectedInternalMethod()
-- uid: DocFX_Example.DocFX_Example_Class.ProtectedInternalMethod*
-  name: ProtectedInternalMethod
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_ProtectedInternalMethod_
-  commentId: Overload:DocFX_Example.DocFX_Example_Class.ProtectedInternalMethod
-  fullName: DocFX_Example.DocFX_Example_Class.ProtectedInternalMethod
-  nameWithType: DocFX_Example_Class.ProtectedInternalMethod
-- uid: DocFX_Example.DocFX_Example_Class.ProtectedMethod
-  name: ProtectedMethod()
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_ProtectedMethod
-  commentId: M:DocFX_Example.DocFX_Example_Class.ProtectedMethod
-  fullName: DocFX_Example.DocFX_Example_Class.ProtectedMethod()
-  nameWithType: DocFX_Example_Class.ProtectedMethod()
-- uid: DocFX_Example.DocFX_Example_Class.ProtectedMethod*
-  name: ProtectedMethod
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_ProtectedMethod_
-  commentId: Overload:DocFX_Example.DocFX_Example_Class.ProtectedMethod
-  fullName: DocFX_Example.DocFX_Example_Class.ProtectedMethod
-  nameWithType: DocFX_Example_Class.ProtectedMethod
-- uid: DocFX_Example.DocFX_Example_Class.protectedVar
-  name: protectedVar
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_protectedVar
-  commentId: F:DocFX_Example.DocFX_Example_Class.protectedVar
-  fullName: DocFX_Example.DocFX_Example_Class.protectedVar
-  nameWithType: DocFX_Example_Class.protectedVar
-- uid: DocFX_Example.DocFX_Example_Class.publicMethod
-  name: publicMethod()
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_publicMethod
-  commentId: M:DocFX_Example.DocFX_Example_Class.publicMethod
-  fullName: DocFX_Example.DocFX_Example_Class.publicMethod()
-  nameWithType: DocFX_Example_Class.publicMethod()
-- uid: DocFX_Example.DocFX_Example_Class.publicMethod*
-  name: publicMethod
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_publicMethod_
-  commentId: Overload:DocFX_Example.DocFX_Example_Class.publicMethod
-  fullName: DocFX_Example.DocFX_Example_Class.publicMethod
-  nameWithType: DocFX_Example_Class.publicMethod
-- uid: DocFX_Example.DocFX_Example_Class.publicVar
-  name: publicVar
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_publicVar
-  commentId: F:DocFX_Example.DocFX_Example_Class.publicVar
-  fullName: DocFX_Example.DocFX_Example_Class.publicVar
-  nameWithType: DocFX_Example_Class.publicVar
-- uid: DocFX_Example.DocFX_Example_Class.SimpleExampleMethod(System.Boolean)
-  name: SimpleExampleMethod(Boolean)
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_SimpleExampleMethod_System_Boolean_
-  commentId: M:DocFX_Example.DocFX_Example_Class.SimpleExampleMethod(System.Boolean)
-  fullName: DocFX_Example.DocFX_Example_Class.SimpleExampleMethod(System.Boolean)
-  nameWithType: DocFX_Example_Class.SimpleExampleMethod(Boolean)
-- uid: DocFX_Example.DocFX_Example_Class.SimpleExampleMethod*
-  name: SimpleExampleMethod
-  href: api/DocFX_Example.DocFX_Example_Class.html#DocFX_Example_DocFX_Example_Class_SimpleExampleMethod_
-  commentId: Overload:DocFX_Example.DocFX_Example_Class.SimpleExampleMethod
-  fullName: DocFX_Example.DocFX_Example_Class.SimpleExampleMethod
-  nameWithType: DocFX_Example_Class.SimpleExampleMethod
 - uid: Other
   name: Other
   href: api/Other.html
