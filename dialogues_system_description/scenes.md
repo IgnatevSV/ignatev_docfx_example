@@ -16,4 +16,4 @@ Scenes
 Пример использования системы диалогов с загрузкой их через asset bundles.
 
 > [!WARNING]
-> В данной сцене не забудьте изменить строку "Bundle URL" в объекте "BundleLoader".
+> В данной сцене не забудьте изменить строку "Bundle URL" в объекте @Other.Editor.DefaultAssetBundlesLoader.

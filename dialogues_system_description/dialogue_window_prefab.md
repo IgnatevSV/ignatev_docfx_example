@@ -7,13 +7,13 @@ Dialogue Window Prefab
 ===============
 
 ### Основное
-
-@DialogueSystemScripts.Models.Dialogue
-
 Префаб окна диалога.  
-Может быть настроен дизайнером, однако должен иметь объекты и компоненты, перечисленные в пункте "Dialogue Settings".
+Может быть настроен дизайнером.
 
 ![DialogueWindowPrefab](images/dialogueWindowPrefab.png)
+
+####Дополнительная Информация
+@DialogueSystemScripts.Models.Dialogue
 
 ### Main Window
 Объект главного окна диалога, с которым будут производиться операции во время работы с диалогами(например, удаление или перемещение окна).

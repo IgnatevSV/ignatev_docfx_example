@@ -7,13 +7,13 @@ XML Dialogues Database
 ===============
 
 ### Основное
-
-@DialogueSystemScripts.XML_DialoguesDatabase
-
 ![DialoguesDB](images/dialoguesDB.png)
 
 > [!NOTE]
-> При использовании ввода данных через XML-файл необходимо указывать корректные значения "Size" массива "AnswerSettings". XML-файл данных используется только для изменения значений "Text" в DialogueSettings и AnswerSettings.
+> При использовании ввода данных через XML-файл необходимо указывать корректные значения "Size" массива @DialogueSystemScripts.Models.AnswerSettings. XML-файл данных используется только для изменения значений "Text" в @DialogueSystemScripts.Models.DialogueSettings и @DialogueSystemScripts.Models.AnswerSettings.
+
+####Дополнительная Информация
+@DialogueSystemScripts.XML_DialoguesDatabase
 
 ###XML File
 Файл диалогов и ответов, который будет использоваться при выбранном типе ввода данных "External".  

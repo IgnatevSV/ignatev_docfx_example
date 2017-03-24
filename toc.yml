@@ -1,6 +1,6 @@
-- name: Articles
-  href: articles/
-  homepage: articles/quickstart.md
+- name: DocFX Notes
+  href: docfx_notes/
+  homepage: docfx_notes/quickstart.md
 
 - name: Api Documentation
   href: api/

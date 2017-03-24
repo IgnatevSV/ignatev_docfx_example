@@ -1,6 +1,8 @@
 - name: DialogueSystem
-  href: dialogue_system.md
   items:
+    - name: Dialogue System
+      href: dialogue_system.md
+
     - name: Dialogue Window Prefab
       href: dialogue_window_prefab.md
     
